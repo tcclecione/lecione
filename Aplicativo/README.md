@@ -66,7 +66,7 @@ configurações mais especificas, recomendo este link
 3. Vá para pasta do projeto:
 
    ```sh
-   $ cd Lecione
+   $ cd Aplicativo
    ```
 
 4. Instale todas as dependências:
