@@ -1,0 +1,60 @@
+import em from 'utils/em';
+
+export default {
+  'NativeBase.Body': {
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+    alignSelf: null,
+    flexDirection: 'column',
+    height: 250,
+    width: '80%',
+    backgroundColor: 'white',
+    borderRadius: 7,
+    overflow: 'hidden',
+    flex: 0,
+    backgroundColor: '#d2cdcd',
+    'NativeBase.Left': {
+      flex: 0,
+      width: '100%',
+      backgroundColor: '#969595',
+      height: 50,
+      justifyContent: 'center',
+      paddingHorizontal: 15,
+      'NativeBase.Title': {
+        color: 'white',
+        fontSize: em(1.2),
+        fontWeight: '500',
+        fontFamily: 'Roboto-Bold',
+      },
+    },
+    'NativeBase.Right': {
+      width: '100%',
+      alignItems: 'flex-start',
+      justifyContent: 'flex-start',
+      padding: 15,
+      flex: 1,
+      'NativeBase.Text': {
+        fontSize: em(1),
+      },
+    },
+    'NativeBase.ViewNB': {
+      flex: 0,
+      width: '100%',
+      padding: 15,
+      'NativeBase.Button': {
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#C81617',
+        marginBottom: 10,
+      },
+    },
+  },
+  padding: 0,
+  margin: 0,
+  alignItems: 'center',
+  justifyContent: 'center',
+  flex: 1,
+  width: '100%',
+  overflow: 'hidden',
+};

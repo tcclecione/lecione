@@ -1,0 +1,27 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "exclude": [
+          "babel-plugin-transform-classes"
+        ]
+      },
+      "env"
+    ]
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties"
+    ],
+    "@babel/plugin-transform-runtime"
+  ]
+}
