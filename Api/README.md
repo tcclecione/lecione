@@ -26,7 +26,7 @@ Você precisa [Node.js](https://nodejs.org) instalado em seu computador e rodar
 os seguintes comandos.
 
 ```bash
-git clone https://github.com/hyankelwin/conceitos-nodejs.git
+git clone https://gitlab.com/tcclecione/lecione.git
 $ cd Api
 $ yarn install
 $ yarn dev
