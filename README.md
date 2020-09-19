@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="imagens/logo.png.png" alt="Lecione" width="120">
+  <img src="Aplicativo/app/common/imagens/logo.png.png" alt="Lecione" width="120">
 <br>
 <br>
 </h1>
